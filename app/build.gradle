@@ -6,12 +6,18 @@ android {
 
     defaultConfig {
         applicationId "com.lunny.xrouter"
-        minSdkVersion 19
+        minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [XROUTER_MODULE_NAME: project.getName()]
+            }
+        }
     }
 
     buildTypes {
@@ -31,4 +37,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation project(path: ':xrouter:xrouter-api')
+    implementation project(path: ':xrouter:xrouter-annotation')
+    annotationProcessor project(path: ':xrouter:xrouter-compiler')
+    implementation project(path: ':shoppingmodule')
+    implementation project(path: ':usermodule')
 }

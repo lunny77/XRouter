@@ -127,5 +127,9 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
+    <orderEntry type="module" module-name="xrouter-api" />
+    <orderEntry type="module" module-name="shoppingmodule" />
+    <orderEntry type="module" module-name="usermodule" />
+    <orderEntry type="module" module-name="xrouter-annotation" />
   </component>
 </module>

@@ -1,8 +1,12 @@
 package com.lunny.usermodule;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
+import com.xrouter.annotation.Route;
+
+@Route(path = "user/user")
 public class UserActivity extends AppCompatActivity {
 
     @Override
