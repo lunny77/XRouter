@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.xrouter.annotation.Route;
 
-@Route(path = "shopping/main")
+@Route(path = "/shop/main")
 public class ShoppingActivity extends AppCompatActivity {
 
     @Override

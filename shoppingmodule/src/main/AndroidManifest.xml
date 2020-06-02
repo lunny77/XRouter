@@ -3,7 +3,8 @@
     package="com.lunny.shoppingmodule">
 
     <application>
-        <activity android:name=".ShoppingActivity"></activity>
+        <activity android:name=".ShoppingListActivity"></activity>
+        <activity android:name=".ShoppingActivity" />
     </application>
 
 </manifest>

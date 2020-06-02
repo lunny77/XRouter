@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_to_shop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                XRouter.navigate("shopping/main");
+                XRouter.navigate("/shop/main");
             }
         });
     }
